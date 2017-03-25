@@ -1,0 +1,9 @@
+.row {
+    margin-top: 40px;
+}
+
+@media (max-width: 991px) {
+    .btn {
+        margin-top: 20px;
+    }
+}
