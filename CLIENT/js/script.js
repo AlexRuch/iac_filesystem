@@ -1,4 +1,4 @@
-window.onload = function () {
+function pathList() {
     var xhttp = new XMLHttpRequest();
     var pathList, txt = "";
     xhttp.onreadystatechange = function () {
@@ -21,7 +21,7 @@ window.onload = function () {
                     "<td>" + pathList[x].path + "</td>" +
                     "<td>" + pathList[x].dir_count + "</td>" +
                     "<td>" + pathList[x].file_count + "</td>" +
-                    "<td>" + pathList[x].file_size + "</td>" +
+                    "<td>" + pathList[x].files_size + "</td>" +
                     "<td><button type='button' class='btn .btn-info' data-toggle='modal' data-target='#myModal' onclick='pathFiles(" + pathList[x].path_id + ")'>Файлы</button></td>" +
                     "</tr>";
             }
@@ -32,13 +32,26 @@ window.onload = function () {
     };
     xhttp.open("GET", "http://localhost:28080/file_system-1.0-SNAPSHOT/path", true);
     xhttp.send();
-};
+}
+
+window.onload = pathList();
 
 function addPath() {
     var newPath = document.getElementById('inputPath');
     var xhttp = new XMLHttpRequest();
-    xhttp.open("POST", "http://localhost:28080/file_system-1.0-SNAPSHOT/newpath", true);
+    var response;
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            response = this.responseText;
+            if(response == "err"){
+                alert("Директория не существует или у Вас нет прав доступа для её просмотра");
+            }
+        }
+    };
+
+    xhttp.open("POST", "http://localhost:28080/file_system-1.0-SNAPSHOT/newpath", false);
     xhttp.send(newPath.value);
+    pathList();
 }
 
 function pathFiles(path_id) {

@@ -3,6 +3,7 @@ package org.filesystem.rest.entity;
 import org.filesystem.rest.enums.FileTypeEnum;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity(name = "file_db")
 @Table(name = "dir_file")
@@ -21,6 +22,7 @@ public class FileEntity {
 
     @Column
     private Long file_size;
+
 
     @ManyToOne
     @JoinColumn(name = "path_id")
@@ -64,6 +66,13 @@ public class FileEntity {
 
     public void setFile_path(PathEntity file_path) {
         this.file_path = file_path;
+    }
+
+    @Override
+    public String toString() {
+        return "FileEntity{" +
+                "file_name='" + file_name.toUpperCase() + '\'' +
+                '}';
     }
 }
 

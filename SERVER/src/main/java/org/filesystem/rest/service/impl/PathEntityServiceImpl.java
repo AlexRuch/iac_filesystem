@@ -41,11 +41,11 @@ public class PathEntityServiceImpl implements PathEntityService {
     }
 
     @Override
-    public void addPath(String path) {
+    public String addPath(String path) {
         PathEntity pathEntity = new PathEntity();
         pathEntity.setPath(path);
         pathEntity.setCreate_date(currentTime());
-        fileService.addFile(pathEntity);
+        return fileService.addFile(pathEntity);
     }
 
     private String currentTime() {

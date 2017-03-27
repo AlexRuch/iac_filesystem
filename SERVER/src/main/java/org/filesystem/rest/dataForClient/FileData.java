@@ -19,4 +19,6 @@ public class FileData {
     public String getFile_size() {
         return file_size;
     }
+
+
 }

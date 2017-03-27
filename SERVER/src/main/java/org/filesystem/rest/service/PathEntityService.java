@@ -8,5 +8,5 @@ import java.util.List;
 public interface PathEntityService {
 
     List<PathData> getAllPath();
-    void addPath(String path);
+    String addPath(String path);
 }

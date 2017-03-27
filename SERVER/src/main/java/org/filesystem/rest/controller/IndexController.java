@@ -25,21 +25,9 @@ public class IndexController {
     @Autowired
     FileEntityService fileEntityService;
 
-//    public PathEntityService getPathService() {
-//        return pathService;
-//    }
-//
-//    @Autowired
-//    public void setPathService(PathEntityService pathService) {
-//        this.pathService = pathService;
-//    }
-
-
-
-
     @RequestMapping(value = "/path", method = RequestMethod.GET)
     @ResponseBody
-    public List<PathData> showDirData(HttpServletResponse response){
+    public List<PathData> showDirData(HttpServletResponse response) {
 
         response.setHeader("Access-Control-Allow-Origin", "*");
         System.out.println(pathService.getAllPath().size());
@@ -50,14 +38,14 @@ public class IndexController {
 
     @RequestMapping(value = "/newpath", method = RequestMethod.POST)
     @ResponseBody
-    public void addPath(HttpServletResponse response, @RequestBody String path){
+    public String addPath(HttpServletResponse response, @RequestBody String path) {
         response.setHeader("Access-Control-Allow-Origin", "*");
-        pathService.addPath(path);
+        return pathService.addPath(path);
     }
 
     @RequestMapping(value = "/files", method = RequestMethod.POST)
     @ResponseBody
-    public List<FileData> showFiles(HttpServletResponse response, @RequestBody String path_id){
+    public List<FileData> showFiles(HttpServletResponse response, @RequestBody String path_id) {
         System.out.println(path_id);
         response.setHeader("Access-Control-Allow-Origin", "*");
         return fileEntityService.getByPath(Integer.parseInt(path_id));

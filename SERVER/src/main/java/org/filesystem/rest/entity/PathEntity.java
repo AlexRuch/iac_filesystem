@@ -3,6 +3,8 @@ package org.filesystem.rest.entity;
 
 
 
+import org.hibernate.annotations.SortNatural;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -13,7 +15,6 @@ public class PathEntity {
 
     @Id
     @GeneratedValue
-
     private int path_id;
 
     @Column

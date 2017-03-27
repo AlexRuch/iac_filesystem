@@ -25,6 +25,10 @@ public class PathData {
         return path_id;
     }
 
+    public String getCreate_time() {
+        return create_time;
+    }
+
     public String getPath() {
         return path;
     }

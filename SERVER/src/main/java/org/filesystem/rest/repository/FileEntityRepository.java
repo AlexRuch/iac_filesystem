@@ -7,6 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Component;
 
+import javax.persistence.NamedNativeQuery;
 import java.util.List;
 
 @Component

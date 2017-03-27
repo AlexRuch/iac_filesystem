@@ -9,5 +9,5 @@ import java.util.List;
 public interface FileEntityService {
 
     List<FileData> getByPath(int path_id);
-    void addFile(PathEntity pathEntity);
+    String addFile(PathEntity pathEntity);
 }
