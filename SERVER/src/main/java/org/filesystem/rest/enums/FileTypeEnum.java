@@ -1,9 +1,9 @@
 package org.filesystem.rest.enums;
 
-public enum  FileTypeEnum {
+public enum FileTypeEnum {
     DOCUMENT,
     DIRECTORY;
 
-    FileTypeEnum(){
+    FileTypeEnum() {
     }
 }

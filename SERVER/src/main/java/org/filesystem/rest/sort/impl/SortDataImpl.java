@@ -11,8 +11,8 @@ import java.util.*;
 public class SortDataImpl implements SortData {
 
     @Override
-    public List<FileEntity> naturalSort(List<FileEntity> fileEntityList){
-        Collections.sort(fileEntityList,new NaturalOrderComparator());
+    public List<FileEntity> naturalSort(List<FileEntity> fileEntityList) {
+        Collections.sort(fileEntityList, new NaturalOrderComparator());
         return fileEntityList;
     }
 }

@@ -15,6 +15,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import javax.annotation.Resource;
 import javax.sql.DataSource;
 import java.util.Properties;
+
 @Configuration
 @EnableTransactionManagement
 @ComponentScan("org.filesystem.rest")
@@ -34,7 +35,7 @@ public class DataConfig {
     private Environment environment;
 
     @Bean
-    DataSource dataSource(){
+    DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName(environment.getRequiredProperty(PROP_DATABASE_DRIVER));
         dataSource.setUrl(environment.getRequiredProperty(PROP_DATABASE_URL));

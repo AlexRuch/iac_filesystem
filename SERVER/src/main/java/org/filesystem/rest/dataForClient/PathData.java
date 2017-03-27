@@ -1,8 +1,5 @@
 package org.filesystem.rest.dataForClient;
 
-/**
- * Created by ralex on 3/25/17.
- */
 public class PathData {
     private int path_id;
     private String create_time;
@@ -11,7 +8,7 @@ public class PathData {
     private int file_count;
     private String files_size;
 
-    public PathData(int path_id, String create_time, String path, int dir_count, int file_count, String files_size){
+    public PathData(int path_id, String create_time, String path, int dir_count, int file_count, String files_size) {
         this.path_id = path_id;
         this.create_time = create_time;
         this.path = path;

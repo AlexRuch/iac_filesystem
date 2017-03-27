@@ -2,10 +2,7 @@ package org.filesystem.rest.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-/**
- * Created by ralex on 3/25/17.
- */
-public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer{
+public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return new Class<?>[]{
@@ -20,6 +17,6 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
 
     @Override
     protected String[] getServletMappings() {
-        return new String[] {"/"};
+        return new String[]{"/"};
     }
 }

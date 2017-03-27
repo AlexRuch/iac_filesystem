@@ -11,8 +11,8 @@ import javax.persistence.NamedNativeQuery;
 import java.util.List;
 
 @Component
-public interface FileEntityRepository extends JpaRepository<FileEntity, Integer>{
+public interface FileEntityRepository extends JpaRepository<FileEntity, Integer> {
 
     @Query("select f from file_db f where f.file_path = :path  order by f.file_name")
-    List<FileEntity> findByPath(@Param("path")PathEntity pathEntity);
+    List<FileEntity> findByPath(@Param("path") PathEntity pathEntity);
 }

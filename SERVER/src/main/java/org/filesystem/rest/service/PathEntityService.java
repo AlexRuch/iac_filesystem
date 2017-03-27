@@ -8,5 +8,6 @@ import java.util.List;
 public interface PathEntityService {
 
     List<PathData> getAllPath();
+
     String addPath(String path);
 }

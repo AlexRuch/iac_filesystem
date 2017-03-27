@@ -1,8 +1,6 @@
 package org.filesystem.rest.entity;
 
 
-
-
 import org.hibernate.annotations.SortNatural;
 
 import javax.persistence.*;
