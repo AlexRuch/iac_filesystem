@@ -2,57 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5530de9-0fe0-4d07-a4c4-dff141fc74dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/postgresql-9.4.1212.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/config/AppInitializer.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/config/AppInitializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/config/DataConfig.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/config/DataConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/config/Initializer.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/config/Initializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/config/WebAppConfig.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/config/WebAppConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/controller/IndexController.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/controller/IndexController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/dataForClient/FileData.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/dataForClient/FileData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/dataForClient/PathData.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/dataForClient/PathData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/entity/FileEntity.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/entity/FileEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/entity/PathEntity.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/entity/PathEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/enums/FileTypeEnum.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/enums/FileTypeEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/repository/FileEntityRepository.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/repository/FileEntityRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/repository/PathEntityRepository.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/repository/PathEntityRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/service/FileEntityService.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/service/FileEntityService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/service/PathEntityService.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/service/PathEntityService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/service/impl/FileEntityServiceImpl.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/service/impl/FileEntityServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/service/impl/PathEntityServiceImpl.class" afterPath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/service/impl/PathEntityServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/config/AppInitializer.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/config/AppInitializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/config/DataConfig.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/config/DataConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/config/Initializer.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/config/Initializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/config/WebAppConfig.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/config/WebAppConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/controller/IndexController.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/controller/IndexController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/dataForClient/FileData.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/dataForClient/FileData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/dataForClient/PathData.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/dataForClient/PathData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/entity/FileEntity.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/entity/FileEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/entity/PathEntity.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/entity/PathEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/enums/FileTypeEnum.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/enums/FileTypeEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/repository/FileEntityRepository.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/repository/FileEntityRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/repository/PathEntityRepository.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/repository/PathEntityRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/service/FileEntityService.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/service/FileEntityService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/service/PathEntityService.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/service/PathEntityService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/service/impl/FileEntityServiceImpl.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/service/impl/FileEntityServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/service/impl/PathEntityServiceImpl.class" afterPath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/service/impl/PathEntityServiceImpl.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/app.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/config/AppInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/config/DataConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/config/Initializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/config/WebAppConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/controller/IndexController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/dataForClient/FileData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/dataForClient/PathData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/entity/FileEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/entity/PathEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/enums/FileTypeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/repository/FileEntityRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/repository/PathEntityRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/service/FileEntityService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/service/PathEntityService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/service/impl/FileEntityServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/service/impl/PathEntityServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/sort/SortData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/sort/impl/NaturalOrderComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/classes/org/filesystem/rest/sort/impl/SortDataImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/app.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/config/AppInitializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/config/DataConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/config/Initializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/config/WebAppConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/controller/IndexController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/dataForClient/FileData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/dataForClient/PathData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/entity/FileEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/entity/PathEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/enums/FileTypeEnum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/repository/FileEntityRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/repository/PathEntityRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/service/FileEntityService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/service/PathEntityService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/service/impl/FileEntityServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/service/impl/PathEntityServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/sort/SortData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/sort/impl/NaturalOrderComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/classes/org/filesystem/rest/sort/impl/SortDataImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.8.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.0.12.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.0.12.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.24.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/postgresql-9.4.1212.jre7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.24.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.13.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/spring-data-jpa-1.11.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.6.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SERVER/target/file_system-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CLIENT/js/script.js" afterPath="$PROJECT_DIR$/CLIENT/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/.idea/artifacts/RESTServerFileSystem_war_exploded.xml" afterPath="$PROJECT_DIR$/SERVER/.idea/artifacts/RESTServerFileSystem_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/.idea/compiler.xml" afterPath="$PROJECT_DIR$/SERVER/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/.idea/dataSources/f1c79ec1-238e-4b5d-a29c-45e4e27da3c9.xml" afterPath="$PROJECT_DIR$/SERVER/.idea/dataSources/f1c79ec1-238e-4b5d-a29c-45e4e27da3c9.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/.idea/workspace.xml" afterPath="$PROJECT_DIR$/SERVER/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/RESTServerFileSystem.iml" afterPath="$PROJECT_DIR$/SERVER/RESTServerFileSystem.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/pom.xml" afterPath="$PROJECT_DIR$/SERVER/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/controller/IndexController.java" afterPath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/dataForClient/FileData.java" afterPath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/dataForClient/FileData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/dataForClient/PathData.java" afterPath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/dataForClient/PathData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/entity/FileEntity.java" afterPath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/entity/FileEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/entity/PathEntity.java" afterPath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/entity/PathEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/repository/FileEntityRepository.java" afterPath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/repository/FileEntityRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/service/FileEntityService.java" afterPath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/service/FileEntityService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/service/PathEntityService.java" afterPath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/service/PathEntityService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/service/impl/FileEntityServiceImpl.java" afterPath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/service/impl/FileEntityServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/service/impl/PathEntityServiceImpl.java" afterPath="$PROJECT_DIR$/SERVER/src/main/java/org/filesystem/rest/service/impl/PathEntityServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -286,12 +310,12 @@
       <workItem from="1490545056115" duration="4999000" />
       <workItem from="1490573854872" duration="1658000" />
       <workItem from="1490612335679" duration="6032000" />
-      <workItem from="1490640394357" duration="2971000" />
+      <workItem from="1490640394357" duration="4631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33615000" />
+    <option name="totallyTimeSpent" value="35275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="74" width="1922" height="1081" extended-state="6" />
